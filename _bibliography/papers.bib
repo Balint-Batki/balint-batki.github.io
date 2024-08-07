@@ -1,3 +1,34 @@
+@article{KIRCHKNOPF2024110601,
+	title = {Application of machine learning methods for spent fuel characterization based on gamma spectrometry measurements},
+	journal = {Annals of Nuclear Energy},
+	volume = {205},
+	pages = {110601},
+	year = {2024},
+	issn = {0306-4549},
+	doi = {https://doi.org/10.1016/j.anucene.2024.110601},
+	url = {https://www.sciencedirect.com/science/article/pii/S0306454924002640},
+	author = {Péter Kirchknopf and Bálint Batki and Péter Völgyesi and Zoltán Kató and Imre Szalóki},
+	keywords = {Spent nuclear fuel, Paks NPP, Gamma spectrometry, Machine learning, Convolutional neural network},
+	abstract = {Machine learning models have been developed to predict properties of spent nuclear fuel assemblies from Paks NPP, such as burnup, cooling time, initial enrichment, and Pu-239 content. Measured gamma spectra are processed, and activity ratios of fission products are calculated to serve as input features for Support Vector Regression, Random Forest, and Multi-Layer Perceptron models. Data uncertainty is considered during inference to produce prediction intervals, and input features are ranked using the Gini importance of Random Forest models. A deep learning approach using Convolutional Neural Networks has also been developed to predict the spent fuel parameters from the measured spectra directly. The new models can predict spent fuel parameters with great precision, outperforming earlier approaches that rely on nonlinear regression using a single feature to predict burnup and cooling time and can estimate initial enrichment and Pu-239 content.},
+	preview={ml-burnup.jpg},
+	selected={true}
+}
+
+@article{SEBESTENY2024110560,
+	title = {Automated group constant parameterization for low sample sizes using different Machine learning approaches},
+	journal = {Annals of Nuclear Energy},
+	volume = {204},
+	pages = {110560},
+	year = {2024},
+	issn = {0306-4549},
+	doi = {https://doi.org/10.1016/j.anucene.2024.110560},
+	url = {https://www.sciencedirect.com/science/article/pii/S0306454924002238},
+	author = {Dániel Sebestény and István Panka and Bálint Batki},
+	keywords = {Group constant parametrization, Machine learning methods, Hyperparameter optimization, Vver-1200 fuel assembly},
+	abstract = {This paper deals with group constant parameterization, a necessary step to utilize the results of assembly-level neutronics calculations at the full-core level. The focus is on low sample size problems when the commonly used linear interpolation approach is inadequate, a typical situation of using Monte Carlo codes for group constant generation. This work presents a newly developed code package for automated group constant parameterization. It implements several machine learning regression models − including a novel polynomial regression algorithm − performs hyperparameter optimization and selects the best model based on a detailed evaluation. The applicability of the new code package is demonstrated in a case study for a VVER-1200 fuel assembly covering both normal operation and transient conditions. In this example, the novel polynomial regression model provides a 73 pcm average error in kinf that leads to reactivity coefficients well within the desired precision.},
+	preview={gc-data.jpg},
+}
+
 
 @article{vizi_water_2023,
 	title = {Water level prediction using long short-term memory neural network model for a lowland river: a case study on the {Tisza} {River}, {Central} {Europe}},
@@ -14,36 +45,7 @@
 	pages = {92},
 	preview={flood.png},
 	code={https://github.com/zsvizi/water-prediction-lstm-tisza},
-}
-
-@article{KIRCHKNOPF2024110601,
-	title = {Application of machine learning methods for spent fuel characterization based on gamma spectrometry measurements},
-	journal = {Annals of Nuclear Energy},
-	volume = {205},
-	pages = {110601},
-	year = {2024},
-	issn = {0306-4549},
-	doi = {https://doi.org/10.1016/j.anucene.2024.110601},
-	url = {https://www.sciencedirect.com/science/article/pii/S0306454924002640},
-	author = {Péter Kirchknopf and Bálint Batki and Péter Völgyesi and Zoltán Kató and Imre Szalóki},
-	keywords = {Spent nuclear fuel, Paks NPP, Gamma spectrometry, Machine learning, Convolutional neural network},
-	abstract = {Machine learning models have been developed to predict properties of spent nuclear fuel assemblies from Paks NPP, such as burnup, cooling time, initial enrichment, and Pu-239 content. Measured gamma spectra are processed, and activity ratios of fission products are calculated to serve as input features for Support Vector Regression, Random Forest, and Multi-Layer Perceptron models. Data uncertainty is considered during inference to produce prediction intervals, and input features are ranked using the Gini importance of Random Forest models. A deep learning approach using Convolutional Neural Networks has also been developed to predict the spent fuel parameters from the measured spectra directly. The new models can predict spent fuel parameters with great precision, outperforming earlier approaches that rely on nonlinear regression using a single feature to predict burnup and cooling time and can estimate initial enrichment and Pu-239 content.},
-	preview={ml-burnup.jpg},
-}
-
-@article{SEBESTENY2024110560,
-	title = {Automated group constant parameterization for low sample sizes using different Machine learning approaches},
-	journal = {Annals of Nuclear Energy},
-	volume = {204},
-	pages = {110560},
-	year = {2024},
-	issn = {0306-4549},
-	doi = {https://doi.org/10.1016/j.anucene.2024.110560},
-	url = {https://www.sciencedirect.com/science/article/pii/S0306454924002238},
-	author = {Dániel Sebestény and István Panka and Bálint Batki},
-	keywords = {Group constant parametrization, Machine learning methods, Hyperparameter optimization, Vver-1200 fuel assembly},
-	abstract = {This paper deals with group constant parameterization, a necessary step to utilize the results of assembly-level neutronics calculations at the full-core level. The focus is on low sample size problems when the commonly used linear interpolation approach is inadequate, a typical situation of using Monte Carlo codes for group constant generation. This work presents a newly developed code package for automated group constant parameterization. It implements several machine learning regression models − including a novel polynomial regression algorithm − performs hyperparameter optimization and selects the best model based on a detailed evaluation. The applicability of the new code package is demonstrated in a case study for a VVER-1200 fuel assembly covering both normal operation and transient conditions. In this example, the novel polynomial regression model provides a 73 pcm average error in kinf that leads to reactivity coefficients well within the desired precision.},
-	preview={gc-data.jpg},
+	selected={true}
 }
 
 @article{PATAKI2023109493,
@@ -74,6 +76,7 @@
 	keywords = {ALLEGRO, ATHLET3.0, KIKO3DMG, UTOP},
 	abstract = {The KIKO3DMG nodal reactor physics code and the ATHLET3.0 thermal-hydraulics system code have been extended in recent years for the analyses of fast reactors. This paper focuses on the capabilities of the coupled KIKO3DMG/ATHLET3.0 code in the case of an unprotected transient of the ALLEGRO demonstrator gas-cooled fast reactor. We show that the coupled code can simulate an asymmetrical control assembly withdrawal transient. The code provides adequate results by using 6-group constants instead of the widely used 24-group constants, and with this, the computation time of the transient is reduced by 95%. Moreover, we drove attention to the applicability of the point-kinetics methodology, which can be limited because of the approximate manner of the derivation of the corresponding parameters. Finally, we present a methodology to flatten the distribution of the outlet coolant temperature by applying flow restrictors.},
 	preview={kc.jpg},
+	selected={true}
 }
 
 @article{BATKI2020107295,
