@@ -2,7 +2,7 @@
 layout: page
 title: nuclear simulations
 description: my main Postodoc research project
-img: assets/img/nuclear.webp
+img: assets/img/nuclear.png
 importance: 1
 category: work
 related_publications: true
